@@ -11,7 +11,7 @@ To Create Dataset and Load Dataset in pandas library.
 7. df.to_csv("students.csv", index=False)-Saves the dataframe into a file named students.csv.
 8. df.shape- It returns the dimensions of the dataframe in the form of (rows,columns).
 9. df.size- It returns the total number of elements (values) in the DataFrame.(size=rows*columns).
-10. df.info() is a function used to get a summary of a dataframe.It gives quick information about the structure of the dataset.It gives Number of entries (rows), column names, non-null values data types and memory usage.
+10. df.info() is a function used to get a summary of a dataframe.It gives quick information about the structure of the dataset.It gives number of entries (rows), column names, non-null values data types and memory usage.
 11. df.describe() is used to generate statistical summary of a dataframe.It mainly works on numerical columns.
     count- It gives number of non-null values.
     mean- It gives average value.
