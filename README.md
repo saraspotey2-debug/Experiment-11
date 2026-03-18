@@ -5,7 +5,7 @@ To Create Dataset and Load Dataset in pandas library.
 1. Dataset- A dataset is a collection of data organized in a structured format such as rows and columns.In pandas, datasets are represented using a dataframe, which is a 2-dimensional tabular data structure (like an Excel sheet).
 2. Creating Dataset- Creating a dataset means manually defining data inside python and converting it into a dataframe.
 3. Loading a Dataset- Loading a dataset means importing data from external sources into pandas.
-4. Import pandas- This line imports the pandas library.Pandas is used for data handling and analysis.
+4. import pandas- This line imports the pandas library.Pandas is used for data handling and analysis.
 5. Then a dataset is created through dictionary,list etc.
 6. df = pd.DataFrame(data)-Converts the dictionary into a dataframe and df is now a table.
 7. df.to_csv("students.csv", index=False)-Saves the dataframe into a file named students.csv.
