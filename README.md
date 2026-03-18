@@ -11,16 +11,16 @@ To Create Dataset and Load Dataset in pandas library.
 7. df.to_csv("students.csv", index=False)-Saves the dataframe into a file named students.csv.
 8. df.shape- It returns the dimensions of the dataframe in the form of (rows,columns).
 9. df.size- It returns the total number of elements (values) in the DataFrame.(size=rows*columns).
-10. df.info() is a function used to get a summary of a dataframe.It gives quick information about the structure of the dataset.It gives number of entries (rows), column names, non-null values data types and memory usage.
+10. df.info() is a function used to get a summary of a dataframe.It gives quick information about the structure of the dataset.It gives number of entries (rows), column names, non-null values, data types and memory usage.
 11. df.describe() is used to generate statistical summary of a dataframe.It mainly works on numerical columns.
-    count- It gives number of non-null values.
-    mean- It gives average value.
-    std-It gives standard deviation (spread of data).
-    min-It gives minimum value.
-    25%-It gives first quartile.
-    50%-It gives median.
-    75%-It gives third quartile.
-    max-It gives maximum value.
+    1. count- It gives number of non-null values.
+    2. mean- It gives average value.
+    3. std-It gives standard deviation (spread of data).
+    4. min-It gives minimum value.
+    5. 25%-It gives first quartile.
+    6. 50%-It gives median.
+    7. 75%-It gives third quartile.
+    8. max-It gives maximum value.
 12. import numpy as np-It imports NumPy library which is used for numerical operations (arrays, math functions).
 13. df = pd.read_csv('/Cars93.csv')- read_csv() is used to load a dataset from a CSV file and '/Cars93.csv' is the file path.
 14. df.head-It is used to display the first few rows of a dataframe.By default, it shows first 5 rows.
