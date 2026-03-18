@@ -2,7 +2,7 @@
 # Aim
 To Create Dataset and Load Dataset in pandas library.
 # Theory
-1. Dataset- A dataset is a collection of data organized in a structured format such as rows and columns.In pandas, datasets are represented using a DataFrame, which is a 2-dimensional tabular data structure (like an Excel sheet).
+1. Dataset- A dataset is a collection of data organized in a structured format such as rows and columns.In pandas, datasets are represented using a dataframe, which is a 2-dimensional tabular data structure (like an Excel sheet).
 2. Creating Dataset- Creating a dataset means manually defining data inside Python and converting it into a DataFrame.
 3. Loading a Dataset- Loading a dataset means importing data from external sources into pandas.
 4. Import pandas- This line imports the pandas library.Pandas is used for data handling and analysis.
